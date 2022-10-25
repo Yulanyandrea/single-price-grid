@@ -1,0 +1,214 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,700;1,400&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 90%;
+    margin: auto;
+    justify-content: center;
+    padding: 20px;
+}
+
+.square1{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    background-color:  white;
+   
+}
+
+.title{
+   color: hsl(180, 50%, 48%);
+   align-content: flex-start;
+   font-size: 25px;
+ 
+   /* padding-top: 10px; */
+}
+
+.second{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    color: hsl(71, 73%, 54%);
+    font-size: 18px;
+    padding-top: 25px;
+}
+
+.paragraph{
+    color: rgba(0,0,0,40%);
+    line-height: 30px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+.padding{
+    padding: 15px;
+}
+
+.botton{
+    width: 100%;
+}
+
+.square2{
+    background-color: hsl(180, 50%, 48%);
+    line-height: 30px;
+    border-radius: 3px;   
+    
+}
+
+.square2_h2{
+    color:white;
+}
+
+.price{
+    color: white;
+}
+
+.number{
+    color: rgba(255, 255, 255, 40%);
+}
+
+.text{
+    color: white;
+}
+
+#signUp{
+    background-color:hsl(71, 73%, 54%) ;
+    box-shadow: 0px 0px 26px -2px  hsl(219, 12%, 29%);
+    border: none;
+    border-radius: 2%;
+    color: white;
+    margin-top: 10%;
+    margin-bottom: 5%;
+    margin-left: 10%;
+    height: 30px; 
+    width: 70%;
+   
+}
+
+.square3{
+    background-color: hsl(179, 47%, 52%);
+    border-radius: 3px;   
+    line-height: 25px;
+}
+
+.text3{
+    color: white;
+}
+
+.list{
+    font-size: 15px;
+    list-style: none;
+    color: rgba(255, 255, 255, 70%);
+    font-weight: 10px;
+    margin-top: 10%;
+    margin-bottom: 3%;
+}
+
+@media (min-width:500px) {
+    .container{
+        /* width: 50%; */
+        display: flex;
+        flex-wrap: wrap;
+    }
+    
+}
+@media(min-width:1200px) {
+
+    .container{
+        width: 100%; 
+        display: flex;
+        flex-wrap:wrap;
+        align-content: center;
+        justify-content: center;
+        height: 100vh;
+    }
+
+    .botton{
+       width: 50%;
+       display: flex;
+    }
+
+    .paragraph{
+        margin-right: 30%;
+    }
+
+    .square1{
+        width: 50%;
+    }
+
+    .square2{
+        width: 50%;
+        flex-grow: 4;
+    }
+
+    .square3{
+        width: 50%;
+        flex-grow: 4;
+    }
+}
+
+@media(min-width:2000px) {
+
+    .container{
+        width: 100%; 
+        display: flex;
+        flex-direction: column; 
+        margin-top: 7%; 
+        padding: 0%;
+    }
+
+    .paragraph{
+        font-size: 20px;
+        width: 100%;
+        
+    }
+
+    .square2{
+        width: 50%;
+    }
+
+    .square2_h2{
+        font-size: 25px;
+    }
+
+    .number{
+        font-size: 20px;
+    }
+
+    .price{
+        font-size: 20px;
+    }
+
+    .text{
+        font-size: 20px;
+    }
+
+    #signUp{
+        height:60px; 
+        width: 270px;
+    }
+
+    .square3{
+        flex-grow: 0.2;
+        width: 50%;
+    }
+
+    .list{
+        font-size: 20px;
+        color: rgba(255, 255, 255, 58%);
+        
+    }
+
+   
+    
+    
+}
